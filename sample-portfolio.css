@@ -16,9 +16,24 @@ h1 {
     font-weight: bold;
 }
 
-#main-div #about-text-body {
+#main-div .text-body {
     text-align: justify;
     text-indent: 35px;
+}
+
+#main-div #career-text-body div {
+    margin-bottom: 15px;
+}
+
+#career-text-body .career-where {
+    width: 700px;
+    float: left;
+    text-align: right;
+}
+
+#career-text-body .career-period {
+    width: 280px;
+    float: left;
 }
 
 .emphasized-text {
