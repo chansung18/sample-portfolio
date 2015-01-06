@@ -1,0 +1,27 @@
+/* CSS declarations go here */
+
+#main-div {
+    width: 1000px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main-div .title-label-header {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#main-div #about-text-body {
+    text-align: justify;
+    text-indent: 35px;
+}
+
+.emphasized-text {
+    font-weight: bold;
+    font-size: 15pt;
+}
