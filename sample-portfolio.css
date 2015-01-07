@@ -1,7 +1,7 @@
 /* CSS declarations go here */
 
 #main-div {
-    width: 1000px;
+    width: 70%;
     
     margin-left: auto;
     margin-right: auto;
@@ -26,14 +26,46 @@ h1 {
 }
 
 #career-text-body .career-where {
-    width: 700px;
     float: left;
-    text-align: right;
+    width: 600px;
+
+    text-align: justify;
+    /*
+    border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    */
 }
 
 #career-text-body .career-period {
-    width: 280px;
-    float: left;
+    margin: 0px;
+    padding: 0px;
+    /*
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+    */
+}
+
+#works-div #works-body {
+    text-align: center;
+}
+
+#works-div #works-body .works {
+    display:inline-block;
+
+    height: 250px;
+    width: 250px;    
+
+    margin-left: 50px;
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#works-div #works-body .works:hover {
+    background-color: red;
 }
 
 .emphasized-text {
