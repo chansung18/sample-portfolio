@@ -21,11 +21,11 @@ h1 {
     text-indent: 35px;
 }
 
-#main-div #career-text-body div {
+#main-div #career-text-body div, #links-div #links-text-body div {
     margin-bottom: 15px;
 }
 
-#career-text-body .career-where {
+#career-text-body .career-where, #links-text-body .links-where {
     float: left;
     width: 600px;
 
@@ -37,7 +37,7 @@ h1 {
     */
 }
 
-#career-text-body .career-period {
+#career-text-body .career-period, #links-text-body .links-address {
     margin: 0px;
     padding: 0px;
     /*
