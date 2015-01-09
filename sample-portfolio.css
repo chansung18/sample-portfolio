@@ -16,35 +16,39 @@ h1 {
     font-weight: bold;
 }
 
-#main-div .text-body {
+#about-text-body {
+    padding-left: 35px;
+    
     text-align: justify;
     text-indent: 35px;
 }
 
-#main-div #career-text-body div, #links-div #links-text-body div {
+#main-div #career-body div, #links-div #links-text-body div {
     margin-bottom: 15px;
 }
 
-#career-text-body .career-where, #links-text-body .links-where {
-    float: left;
-    width: 600px;
-
-    text-align: justify;
-    /*
-    border-style: dashed;
-    border-width: 2px;
-    border-color: black;
-    */
+.entry-title , .entry-remain {
+    text-indent: 35px;
+    display: inline-block;
+    
+    padding-top: 15px;
 }
 
-#career-text-body .career-period, #links-text-body .links-address {
-    margin: 0px;
-    padding: 0px;
-    /*
-    border-style: dashed;
-    border-width: 2px;
-    border-color: red;
-    */
+.entry-title {
+    width: 80%;
+}
+
+.entry-remain {
+    text-align: right;
+    width: 18%;
+}
+
+.entry-title div, .entry-remain div {
+    margin-bottom: 15px;
+}
+
+.entry-title div:hover {
+    background-color: yellow;
 }
 
 #works-div #works-body {
@@ -66,6 +70,10 @@ h1 {
 
 #works-div #works-body .works:hover {
     background-color: red;
+}
+
+#career-div, #post-board-div, #links-div {
+    min-width: 900px;
 }
 
 .emphasized-text {
